@@ -92,7 +92,6 @@ To complement this notebook analysis, a Power BI dashboard was built to provid
    A horizontal bar chart ranks days of the week by trip volume, identifying the busiest and quietest days.
 
 **Interactivity:** Selecting any chart element filters the entire dashboard, enabling deep dives. This dashboard empowers stakeholders to monitor performance, spot anomalies, and make informed operational decisions in real time.
-![Dashboard](images/dashboard)
 
 ## Results
 
