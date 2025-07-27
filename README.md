@@ -20,6 +20,7 @@ The analysis followed a systematic approach:
       ![Feature extraction](images/Screenshot%202025-07-27%20161534.png)
 
     - Categorizing trips by day.
+
       ![Total trips per day](images/trip_day.png)
 
     - Calculating the distance between pickup and dropoff locations.
@@ -92,6 +93,7 @@ To complement this notebook analysis, a Power BI dashboard was built to provid
    A horizontal bar chart ranks days of the week by trip volume, identifying the busiest and quietest days.
 
 **Interactivity:** Selecting any chart element filters the entire dashboard, enabling deep dives. This dashboard empowers stakeholders to monitor performance, spot anomalies, and make informed operational decisions in real time.
+Here's a link to the [dashboard.](https://drive.google.com/file/d/1ze5LUPZZqDfWOXc6__G2qwCzO2pM_RbC/view?usp=sharing)
 
 ## Results
 
