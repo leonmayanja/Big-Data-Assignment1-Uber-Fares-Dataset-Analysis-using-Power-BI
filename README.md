@@ -9,24 +9,24 @@ This project analyzes Uber trip data to uncover the key factors driving fare amo
 The analysis followed a systematic approach:
 
 1.  **Data Loading and Initial Inspection**: The dataset was loaded using pandas, and initial checks were performed to understand its structure, identify missing values, and examine data types.
-    ![Data after loading](assignment1/images/Screenshot%202025-07-27%20155230.png)
+    ![Data after loading](images/Screenshot%202025-07-27%20155230.png)
 2.  **Data Cleaning and Preparation**: Missing values were handled by dropping rows with incomplete information in critical columns. Unnecessary columns were removed.
-    ![Data cleaning 1](assignment1/images/data_cleaning.png)
-    ![Data cleaning 2](assignment1/images/data_cleaning2.png)
+    ![Data cleaning 1](images/data_cleaning.png)
+    ![Data cleaning 2](images/data_cleaning2.png)
 
 3.  **Feature Engineering**: New features were extracted and created from existing data to enrich the analysis. These included:
 
     - Extracting year, month, weekday, and hour from the pickup datetime.
-      ![Feature extraction](assignment1/images/Screenshot%202025-07-27%20161534.png)
+      ![Feature extraction](images/Screenshot%202025-07-27%20161534.png)
 
     - Categorizing trips by day.
-      ![Total trips per day](assignment1/images/trip_day.png)
+      ![Total trips per day](images/trip_day.png)
 
     - Calculating the distance between pickup and dropoff locations.
-      ![Distance calculation using Haversine formula](assignment1/images/dist_conversion.png)
+      ![Distance calculation using Haversine formula](images/dist_conversion.png)
 
 4.  **Descriptive Statistics and Outlier Identification**: Calculated summary statistics (mean, median, quartiles, standard deviation) and used box plots to flag potential outliers in features like fare, distance, and coordinates.
-    ![Summary statistics](assignment1/images/Screenshot%202025-07-27%20161534.png)
+    ![Summary statistics](images/Screenshot%202025-07-27%20161534.png)
 5.  **Data Visualization**: Various visualizations were created to explore data distributions and relationships between variables.
 6.  **Data Export**: The cleaned and processed data was exported to a new CSV file to be used in creating the Power BI dasboard.
 
@@ -42,7 +42,7 @@ Descriptive statistics were generated for the numerical columns, providing insig
 - **Geographic Coordinates**: Descriptive statistics for latitude and longitude provide a general sense of the geographic distribution of trips.
 
 Outliers were visually assessed using box plots for numerical features like `fare_amount`, `distance_km`, and the geographic coordinates.
-![Boxplots](assignment1/images/Screenshot%202025-07-27%20161338.png)
+![Boxplots](images/Screenshot%202025-07-27%20161338.png)
 
 ### Fare Distribution Patterns
 
@@ -53,11 +53,11 @@ The distribution of fare amounts was visualized using a histogram, revealing the
 Visualizations were created to explore the relationships between key variables:
 
 - **Fare Amount vs. Distance Traveled**: A scatter plot illustrated the positive correlation between fare and distance, while also revealing cases of unusually high or low fares for given distances.
-  ![Scatter plot](assignment1/images/Screenshot%202025-07-27%20161729.png)
+  ![Scatter plot](images/Screenshot%202025-07-27%20161729.png)
 - **Fare Amount vs. Time of Day**: A bar chart compared average fares across morning, afternoon, evening, and night periods—highlighting demand‑driven differences.
-  ![Fare amount v Time of Day](assignment1/images/Screenshot%202025-07-27%20161948.png)
+  ![Fare amount v Time of Day](images/Screenshot%202025-07-27%20161948.png)
 - **Fare Amount vs. Day of the Week**: A bar plot displayed the average fare amount for each day of the week, indicating if there are variations in fare based on the day.
-  ![Fare amount Vs. Day of the Week](assignment1/images/Screenshot%202025-07-27%20162155.png)
+  ![Fare amount Vs. Day of the Week](images/Screenshot%202025-07-27%20162155.png)
 
 ## Power BI Dashboard Overview
 
