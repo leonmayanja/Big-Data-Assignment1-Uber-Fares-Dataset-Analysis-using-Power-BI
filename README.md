@@ -31,6 +31,8 @@ The analysis followed a systematic approach:
 5.  **Data Visualization**: Various visualizations were created to explore data distributions and relationships between variables.
 6.  **Data Export**: The cleaned and processed data was exported to a new CSV file to be used in creating the Power BI dasboard.
 
+Here's a link to the [Google Colab notebook](https://colab.research.google.com/drive/1CNxr5TVuLzYjUeHiH_Q7hWKAGhe2MZi7?usp=sharing)
+
 ## Analysis
 
 ### Descriptive Statistics
